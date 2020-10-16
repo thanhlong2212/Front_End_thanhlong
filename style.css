@@ -1,0 +1,685 @@
+p.text {
+    float: left;
+    margin-left: 15px;
+    color: white;
+}
+i.fab.fa-facebook {
+    margin-left: 10px;
+    color: white;
+}
+img.logo {
+    height: 45px;
+    margin-left: 20px;
+}
+i.fab.fa-instagram {
+    color: white;
+    margin-left: 2px;
+}
+i.far.fa-bell {
+    margin-left: 25%;
+    color: white;
+}
+p.text-1 {
+    display: inline;
+    color: white;
+}
+.dropdown.show {
+    position: absolute;
+    left: 71%;
+    bottom: 18%;
+}
+a#dropdownMenuLink {
+    color: #333;
+}
+button.content-1 {
+    position: absolute;
+    left: 73%;
+    bottom: 29%;
+    background: none;
+    border: none;
+}
+button.search-1 {
+    width: 50px;
+    background: red;
+    border: red;
+    height: 30px;
+    position: absolute;
+    left: 89%;
+    bottom: 23%;
+}
+i.fas.fa-search {
+    color: #fff;
+}
+p.text-4 {
+    display: inline;
+    color: white;
+    margin-left: 12px;
+}
+i.far.fa-question-circle {
+    margin-left: 10px;
+    color: white;
+}
+.dtl-header {
+    background: red;
+}
+.dtl-header-1 {
+    background: red;
+    height: 55px;
+}
+input.search {
+    width: 700px;
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+i.fas.fa-shopping-cart {
+    color: white;
+    margin-top: 15px;
+    font-size: 24px;
+}
+i.fas.fa-list-ul {
+    float: left;
+    margin-top: -4px;
+}
+a.list-group-item.list-group-item-action {
+    height: 40px;
+}
+p.text-2 {
+    font-size: 14px;
+}
+p.title {
+    margin-top: -9px;
+    margin-left: 29px;
+    font-weight: 600;
+    font-size: 16px;
+}
+input.list-item {
+    width: 80px;
+    text-align: center;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+p.text-3 {
+    float: left;
+    margin: 10px 60px;
+}
+button.list-content {
+    margin-left: 10px;
+    width: 100px;
+    height: 50%;
+    margin-top: 7px;
+    background: white;
+    border: white;
+    border-radius: 3px;
+}
+button.list-content-2 {
+    margin-left: 10px;
+    width: 100px;
+    height: 50%;
+    margin-top: 7px;
+    background: red;
+    border: red;
+    color: white;
+    border-radius: 3px;
+}
+button.list-content-1 {
+    margin-left: 25px;
+    width: 133px;
+    height: 50%;
+    margin-top: 7px;
+    background: white;
+    border: white;
+    border-radius: 3px;
+}
+i.dtl.fas.fa-angle-down {
+    margin-left: 65px;
+    background: white;
+}
+img.card-img-top {
+    height: 200px;
+}
+p.card-text {
+    font-size: 14px;
+}
+p.money {
+    display: inline;
+    margin-left: 19px;
+    color: red;
+}
+i.fas.fa-heart {
+    font-size: 10px;
+    color: red;
+}
+.star {
+    display: inline;
+    font-size: 10px;
+    color: yellow;
+    margin-left: 29px;
+}
+span.sl {
+    font-size: 10px;
+}
+span.content-2 {
+    font-size: 10px;
+    opacity: 0.7;
+}
+span.content-3 {
+    margin-left: 52%;
+    font-size: 10px;
+    opacity: 0.7;
+}
+.favourite {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    background-color: red;
+    color: white;
+    font-size: 11px;
+    padding-right: 4px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    font-weight: 500;
+}
+i.fas.fa-check {
+    font-size: 8px;
+    margin: 0 3px 0 3px;
+}
+.sale {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 36px;
+    text-align: center;
+    background-color: rgba(255, 216, 64, 0.94);
+}
+span.sale-off {
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+}
+span.sale-off-1 {
+    font-size: 13px;
+    color: white;
+    position: relative;
+    top: -9px;
+    font-weight: 600;
+}
+.card {
+    margin-top: 10px;
+    transition: transfrom linear 0.1s;
+    will-change: transfrom;
+}
+.card:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.05;)
+}
+.dtl {
+    background: #dcdcdc82;
+}
+.col-md-12.dtl-1 {
+    background: #dcdcdc36;
+}
+a.page-link {
+    color: #333;
+    opacity: 0.5;
+}
+li.page-item {
+    margin-left: 20px;
+}
+.Pagination {
+    margin-left: 22%;
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+@media (min-width: 320px) and (max-width: 479px) {
+    .Pagination {
+    margin-left: 2%;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    }
+    li.page-item {
+    margin-left: -3px;
+    }
+    p.money {
+    display: inline;
+    margin-left: 79px;
+    color: red;
+    }
+    .star {
+    display: inline;
+    font-size: 10px;
+    color: yellow;
+    margin-left: 89px;
+    }
+    span.content-3 {
+    margin-left: 67%;
+    font-size: 10px;
+    opacity: 0.7;
+    }
+    button.list-content {
+    margin-left: 31px;
+    width: 100px;
+    height: 50%;
+    margin-top: 7px;
+    background: white;
+    border: white;
+    border-radius: 3px;
+    }
+    button.list-content-1 {
+    margin-left: 11px;
+    }
+    p.text-3 {
+    float: left;
+    margin: 10px 60px;
+    display: none;
+    }
+    p.text {
+    float: left;
+    margin-left: 15px;
+    color: white;
+    display: none;
+    }
+    i.fab.fa-facebook {
+    margin-left: 10px;
+    color: white;
+    display: none;
+    }
+    i.fab.fa-instagram {
+    color: white;
+    margin-left: 2px;
+    display: none;
+    }
+    i.far.fa-question-circle {
+    margin-left: 10px;
+    color: white;
+    display: none;
+    }
+    p.text-1 {
+    display: inline;
+    color: white;
+    display: none;
+    }
+    i.far.fa-bell {
+    margin-left: 25%;
+    color: white;
+    display: none;
+    }
+    img.logo {
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+    button.content-1 {
+    position: absolute;
+    left: 73%;
+    bottom: 29%;
+    background: none;
+    border: none;
+    display: none;
+    }
+    button.search-1 {
+    width: 50px;
+    background: red;
+    border: red;
+    height: 30px;
+    position: absolute;
+    left: 74%;
+    bottom: 23%;
+    }
+    input.search {
+    width: 260px;
+    }
+    i.fas.fa-shopping-cart {
+    color: white;
+    margin-top: 15px;
+    font-size: 24px;
+    margin-left: 87%;
+    }
+    img.card-img-top {
+    height: 100%;
+    width: 100%;
+    }
+}
+@media (min-width: 480px) and (max-width: 575px) {
+    .Pagination {
+    margin-left: 2%;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    }
+    li.page-item {
+    margin-left: 13px;
+    }
+    p.money {
+    display: inline;
+    margin-left: 239px;
+    color: red;
+    }
+    .star {
+    display: inline;
+    font-size: 10px;
+    color: yellow;
+    margin-left: 249px;
+    }
+    span.content-3 {
+    margin-left: 80%;
+    font-size: 10px;
+    opacity: 0.7;
+    }
+    button.list-content {
+    margin-left: 33px;
+    width: 100px;
+    height: 50%;
+    margin-top: 7px;
+    background: white;
+    border: white;
+    border-radius: 3px;
+    }
+    button.list-content-1 {
+    margin-left: 33px;
+    }
+    button.list-content-2 {
+    margin-left: 33px;
+    }
+    p.text-3 {
+    float: left;
+    margin: 10px 60px;
+    display: none;
+    }
+    p.text {
+    float: left;
+    margin-left: 15px;
+    color: white;
+    display: none;
+    }
+    i.fab.fa-facebook {
+    margin-left: 10px;
+    color: white;
+    display: none;
+    }
+    i.fab.fa-instagram {
+    color: white;
+    margin-left: 2px;
+    display: none;
+    }
+    i.far.fa-question-circle {
+    margin-left: 10px;
+    color: white;
+    }
+    p.text-1 {
+    display: inline;
+    color: white;
+    }
+    i.far.fa-bell {
+    margin-left: 3%;
+    color: white;
+    }
+    img.logo {
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+    button.content-1 {
+    position: absolute;
+    left: 59%;
+    bottom: 29%;
+    background: none;
+    border: none;
+    }
+    button.search-1 {
+    width: 50px;
+    background: red;
+    border: red;
+    height: 30px;
+    position: absolute;
+    left: 83%;
+    bottom: 23%;
+    }
+    input.search {
+    width: 420px;
+    }
+    i.fas.fa-shopping-cart {
+    color: white;
+    margin-top: 15px;
+    font-size: 24px;
+    margin-left: 87%;
+    }
+    img.card-img-top {
+    height: 100%;
+    width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .Pagination {
+    margin-left: 2%;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    }
+    li.page-item {
+    margin-left: 18px;
+    }
+    p.money {
+    display: inline;
+    margin-left: 299px;
+    color: red;
+    }
+    i.fas.fa-heart {
+    font-size: 11px;
+    color: red;
+    }
+    .star {
+    display: inline;
+    font-size: 11px;
+    color: yellow;
+    margin-left: 300px;
+    }
+    span.content-3 {
+    margin-left: 83%;
+    font-size: 10px;
+    opacity: 0.7;
+    }
+    button.list-content {
+    margin-left: 31px;
+    width: 100px;
+    height: 50%;
+    margin-top: 7px;
+    background: white;
+    border: white;
+    border-radius: 3px;
+    }
+    button.list-content-1 {
+    margin-left: 10px;
+    }
+    button.list-content-2 {
+    margin-left: 10px;
+    }
+    p.text-3 {
+    float: left;
+    margin: 10px 60px;
+    display: none;
+    }
+    p.text {
+    float: left;
+    margin-left: 15px;
+    color: white;
+    display: none;
+    }
+    i.fab.fa-facebook {
+    margin-left: 10px;
+    color: white;
+    display: none;
+    }
+    i.fab.fa-instagram {
+    color: white;
+    margin-left: 2px;
+    display: none;
+    }
+    i.far.fa-question-circle {
+    margin-left: 10px;
+    color: white;
+    }
+    p.text-1 {
+    display: inline;
+    color: white;
+    }
+    i.far.fa-bell {
+    margin-left: 3%;
+    color: white;
+    }
+    img.logo {
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+    button.content-1 {
+    position: absolute;
+    left: 63%;
+    bottom: 29%;
+    background: none;
+    border: none;
+    }
+    button.search-1 {
+    width: 50px;
+    background: red;
+    border: red;
+    height: 30px;
+    position: absolute;
+    left: 85%;
+    bottom: 23%;
+    }
+    input.search {
+    width: 480px;
+    }
+    i.fas.fa-shopping-cart {
+    color: white;
+    margin-top: 15px;
+    font-size: 24px;
+    margin-left: 87%;
+    }
+    img.card-img-top {
+    height: 100%;
+    width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .Pagination {
+    margin-left: 2%;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    }
+    li.page-item {
+    margin-left: 18px;
+    }
+    p.money {
+    display: inline;
+    margin-left: 299px;
+    color: red;
+    }
+    i.fas.fa-heart {
+    font-size: 11px;
+    color: red;
+    }
+    .star {
+    display: inline;
+    font-size: 11px;
+    color: yellow;
+    margin-left: 300px;
+    }
+    span.content-3 {
+    margin-left: 83%;
+    font-size: 10px;
+    opacity: 0.7;
+    }
+    button.list-content {
+    margin-left: 31px;
+    width: 100px;
+    height: 50%;
+    margin-top: 7px;
+    background: white;
+    border: white;
+    border-radius: 3px;
+    }
+    button.list-content-1 {
+    margin-left: 10px;
+    }
+    button.list-content-2 {
+    margin-left: 10px;
+    }
+    p.text-3 {
+    float: left;
+    margin: 10px 60px;
+    display: none;
+    }
+    p.text {
+    float: left;
+    margin-left: 15px;
+    color: white;
+    display: none;
+    }
+    i.fab.fa-facebook {
+    margin-left: 10px;
+    color: white;
+    display: none;
+    }
+    i.fab.fa-instagram {
+    color: white;
+    margin-left: 2px;
+    display: none;
+    }
+    i.far.fa-question-circle {
+    margin-left: 10px;
+    color: white;
+    }
+    p.text-1 {
+    display: inline;
+    color: white;
+    }
+    i.far.fa-bell {
+    margin-left: 3%;
+    color: white;
+    }
+    img.logo {
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+    button.content-1 {
+    position: absolute;
+    left: 63%;
+    bottom: 29%;
+    background: none;
+    border: none;
+    }
+    button.search-1 {
+    width: 50px;
+    background: red;
+    border: red;
+    height: 30px;
+    position: absolute;
+    left: 85%;
+    bottom: 23%;
+    }
+    input.search {
+    width: 480px;
+    }
+    i.fas.fa-shopping-cart {
+    color: white;
+    margin-top: 15px;
+    font-size: 24px;
+    margin-left: 87%;
+    }
+    img.card-img-top {
+    height: 100%;
+    width: 100%;
+    }
+}
