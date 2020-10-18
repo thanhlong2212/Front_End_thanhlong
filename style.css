@@ -55,6 +55,11 @@ p.text-4 {
     color: white;
     margin-left: 12px;
 }
+p.tex-4 {
+    display: inline;
+    color: white;
+    margin-left: 12px;
+}
 i.far.fa-question-circle {
     margin-left: 10px;
     color: white;
@@ -122,6 +127,15 @@ button.list-content {
     border: white;
     border-radius: 3px;
 }
+button.list-content-3 {
+    margin-left: 10px;
+    width: 100px;
+    height: 50%;
+    margin-top: 7px;
+    background: white;
+    border: white;
+    border-radius: 3px;
+}
 button.list-content-2 {
     margin-left: 10px;
     width: 100px;
@@ -133,7 +147,7 @@ button.list-content-2 {
     border-radius: 3px;
 }
 button.list-content-1 {
-    margin-left: 25px;
+    margin-left: 10px;
     width: 133px;
     height: 50%;
     margin-top: 7px;
@@ -150,6 +164,7 @@ img.card-img-top {
 }
 p.card-text {
     font-size: 14px;
+    height: 50px;
 }
 p.money {
     display: inline;
@@ -328,6 +343,15 @@ li.page-item {
     border: none;
     display: none;
     }
+    button.list-content-3 {
+    margin-left: 31px;
+    width: 100px;
+    height: 50%;
+    margin-top: 7px;
+    background: white;
+    border: white;
+    border-radius: 3px;
+    }
     button.search-1 {
     width: 50px;
     background: red;
@@ -420,6 +444,11 @@ li.page-item {
     display: inline;
     color: white;
     }
+    p.text-4 {
+    display: inline;
+    color: white;
+    margin: 0 0 0 20%;
+    }
     i.far.fa-bell {
     margin-left: 3%;
     color: white;
@@ -435,6 +464,9 @@ li.page-item {
     bottom: 29%;
     background: none;
     border: none;
+    }
+    button.list-content-2 {
+    margin-left: 10px;
     }
     button.search-1 {
     width: 50px;
@@ -508,6 +540,11 @@ li.page-item {
     margin: 10px 60px;
     display: none;
     }
+    p.text-4 {
+    display: inline;
+    color: white;
+    margin-left: 25%;
+    }
     p.text {
     float: left;
     margin-left: 15px;
@@ -573,17 +610,28 @@ li.page-item {
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .Pagination {
-    margin-left: 2%;
-    margin-top: 20px;
     padding-bottom: 15px;
+    margin: 20px 0 0 0;
+    }
+    p.card-text {
+    font-size: 11px;
+    height: 62px;
     }
     li.page-item {
-    margin-left: 18px;
+    margin: 0 0 0 27px;
     }
     p.money {
-    display: inline;
-    margin-left: 299px;
     color: red;
+    margin-left: auto;
+    }
+    i.fas.fa-heart {
+    font-size: 11px;
+    color: red;
+    display: none;
+    }
+    span.sl {
+    font-size: 12px;
+    margin: 0 0 0 7px;
     }
     i.fas.fa-heart {
     font-size: 11px;
@@ -591,13 +639,13 @@ li.page-item {
     }
     .star {
     display: inline;
-    font-size: 11px;
+    font-size: 10px;
     color: yellow;
-    margin-left: 300px;
+    margin-left: 0;
     }
     span.content-3 {
-    margin-left: 83%;
-    font-size: 10px;
+    margin-left: 0;
+    font-size: 9px;
     opacity: 0.7;
     }
     button.list-content {
@@ -620,45 +668,127 @@ li.page-item {
     margin: 10px 60px;
     display: none;
     }
+    p.tex-4 {
+    display: inline;
+    color: white;
+    margin-left: 12px;
+    font-size: 12px;
+    }
     p.text {
     float: left;
-    margin-left: 15px;
-    color: white;
-    display: none;
+    color: white;   
+    font-size: 12px;
+    margin: 4px;
     }
     i.fab.fa-facebook {
     margin-left: 10px;
     color: white;
-    display: none;
+    font-size: 12px;
     }
     i.fab.fa-instagram {
     color: white;
     margin-left: 2px;
-    display: none;
+    font-size: 12px;
     }
     i.far.fa-question-circle {
     margin-left: 10px;
     color: white;
+    font-size: 12px;
     }
     p.text-1 {
     display: inline;
     color: white;
+    font-size: 12px;
     }
     i.far.fa-bell {
-    margin-left: 3%;
+    margin-left: 14%;
     color: white;
+    font-size: 12px;
     }
     img.logo {
-    height: 45px;
-    margin-left: 20px;
-    margin-top: 10px;
+    height: 28px;
+    margin: 10px 0 0 20px;
     }
     button.content-1 {
     position: absolute;
-    left: 63%;
-    bottom: 29%;
+    left: 66%;
+    bottom: 34%;
     background: none;
     border: none;
+    font-size: 14px;
+    }
+    button.search-1 {
+    width: 50px;
+    background: red;
+    border: red;
+    height: 27px;
+    position: absolute;
+    left: 89%;
+    bottom: 29%;
+    }
+    input.search {
+    height: 34px;
+    width: 450px;
+    }
+    i.fas.fa-shopping-cart {
+    color: white;
+    font-size: 20px;
+    }
+    img.card-img-top {
+    height: 100px;
+    }
+    p.text-4 {
+    display: inline;
+    color: white;
+    margin-left: 12px;
+    font-size: 12px;
+    }
+    i.fas.fa-list-ul {
+    float: left;
+    font-size: 8px;
+    display: none;
+    }
+    p.title {
+    font-weight: 600;
+    font-size: 10px;
+    margin: -7px 0 0px 0;
+    }
+    a.list-group-item.list-group-item-action {
+    height: 0px;
+    }
+    p.text-2 {
+    font-size: 8px;
+    }
+    .sale {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px;
+    height: 35px;
+    text-align: center;
+    background-color: rgba(255, 216, 64, 0.94);
+    }
+    span.sale-off {
+    color: red;
+    font-weight: 600;
+    font-size: 10px;
+    }
+    span.sale-off-1 {
+    font-size: 9px;
+    color: white;
+    position: relative;
+    top: -9px;
+    font-weight: 600;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    img.logo {
+    height: 40px;
+    margin-left: 20px;
+    }
+    i.far.fa-bell {
+    margin-left: 20%;
+    color: white;
     }
     button.search-1 {
     width: 50px;
@@ -666,20 +796,67 @@ li.page-item {
     border: red;
     height: 30px;
     position: absolute;
-    left: 85%;
+    left: 92%;
     bottom: 23%;
     }
-    input.search {
-    width: 480px;
+    i.fas.fa-list-ul {
+    float: left;
+    font-size: 13px;
+    margin: 1px;
     }
-    i.fas.fa-shopping-cart {
-    color: white;
-    margin-top: 15px;
-    font-size: 24px;
-    margin-left: 87%;
+    p.title {
+    font-weight: 600;
+    font-size: 14px;
+    margin: -4px 0 0 23px;
     }
     img.card-img-top {
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    }
+    p.card-text {
+    font-size: 13px;
+    height: 50px;
+    }
+    p.money {
+    color: red;
+    display: table-cell;
+    margin-left: 0;
+    }
+    .star {
+    font-size: 13px;
+    color: yellow;
+    text-align: center;
+    margin-left: 0;
+    display: table;
+    }
+    span.sl {
+    font-size: 10px;
+    display: inline;
+    }
+    span.content-3 {
+    font-size: 10px;
+    opacity: 0.7;
+    margin-left: 0;
+    }
+    i.fas.fa-heart {
+    font-size: 10px;
+    color: red;
+    display: none;
+    }
+    .Pagination {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    margin-left: 0;
+    }
+    li.page-item {
+    margin-left: 46px;
+    }
+    button.list-content-1 {
+    margin-left: 10px;
+    width: 133px;
+    height: 50%;
+    margin-top: 7px;
+    background: white;
+    border: white;
+    border-radius: 3px;
     }
 }
